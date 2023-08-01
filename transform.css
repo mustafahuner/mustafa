@@ -1,0 +1,164 @@
+
+body{
+    background-image: url(images/sh5.jpg);
+    background-repeat: no-repeat;
+    background-size: 1370px 620px;
+   
+
+}
+nav{
+    position: sticky;
+    top: 10px;
+}
+nav ul {
+    text-align: right;
+    background-color:gainsboro;
+    position: sticky;
+    top: 10px;
+}
+ nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+   
+    
+}
+
+
+a{
+    text-decoration: none;
+    color:rgb(83, 98, 113);
+ 
+}
+.btn{
+    width: 80px;
+    border: none;
+    border-radius: 25px;
+    padding: 7px;
+    margin: 20px;
+}
+.btn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    float: right;
+}
+.first-btn{
+    background-color: rgb(255, 255, 255);
+    color: darkblue;
+   
+}
+.second-btn{
+    background-color:rgb(255, 255, 255);
+    color: gray;
+   
+}
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1.5rem ;
+    color: snow;
+}
+.para1{
+  color: rgb(251, 251, 251);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 55ch;
+    font-size: 1.5rem;
+}
+
+
+
+
+h1{
+    color: dodgerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.div1{
+    width: 200px;
+    height: 280px;
+    box-shadow: 1px 1px 5px  gray;
+    transition: all 0.2s ease;
+}
+
+.div1:hover{
+    transform:translate(0px , 10px);
+}
+.div2{
+    width: 200px;
+    height: 280px;
+    box-shadow: 1px 1px 5px  gray;
+    transition: all 0.2s ease;
+}
+.div2:hover{
+    transform: rotate(20deg);
+}
+
+.span1{
+    text-decoration: line-through;
+    color: fuchsia;
+}
+
+.span2{
+    color: blue;
+}
+
+.div3{
+    width: 200px;
+    height: 280px;
+    box-shadow: 1px 1px 5px  gray;
+    transition: all 0.3s ease;
+}
+.div3:hover{
+    transform:skewY(-15deg) ;
+}
+.div4{
+    width: 200px;
+    height: 280px;
+    box-shadow: 1px 1px 5px  gray;
+   transition: all 0.4s ease;
+}
+.div4:hover{
+    transform: scale(2, 2);
+
+}
+.div5{
+    width: 200px;
+    height: 280px;
+    box-shadow: 1px 1px 5px  gray;
+}
+.div5:hover{
+    transform: matrix(10);
+}
+.img1{
+    width: 200px;
+    height: 170px;
+}
+ h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: royalblue;
+}
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(13, 44, 138);
+    text-align: center;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+p{
+    color: red;
+    font-size: 2rem;
+}
+
